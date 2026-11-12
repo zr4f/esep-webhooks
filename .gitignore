@@ -1,0 +1,15 @@
+# Build output
+bin/
+obj/
+
+# Editor folders
+.vs/
+.vscode/
+*.user
+
+# AWS access key downloads from IAM. Never commit these.
+*.csv
+
+# Local secrets, just in case
+.env
+*.env
